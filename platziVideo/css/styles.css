@@ -23,11 +23,17 @@ p,figure{
     max-height: 100vh;
 }
 
-.video{
+.video-container{
     background: darkblue;
     grid-column: 2 / span 2;
     display: grid;
     grid-template-rows: 75% 25%;
+}
+
+.video{
+    grid-row: 1;
+    height: 100%;
+    width: 100%;
 }
 
 .video-detalles{
