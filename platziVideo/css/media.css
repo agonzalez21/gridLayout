@@ -1,5 +1,235 @@
-@media screen and (max-width: 700px){
+
+/*
+PANTALLAS:
+4k: 
+2560 x 1122 - 1441 x 
+
+Laptop:
+1440 x 623
+1366 x 768
+1280 x 720
+1024 x 561
+
+Tablet:
+768 x 561
+768 x 1122
+
+Mobile:
+425 x 561
+375 x 561
+320 x 561
+
+*/
+
+/* @media screen and (max-width: 2643px)  */
+/* and (max-height: 1122px) */
+@media screen 
+and (max-width: 2560px) 
+and (min-width: 2330px)
+{
+
+    .menu{
+        font-size: 20px;
+        grid-template-rows: 11% 4% 37% 6% 25%;
+    }
+
+    .logo{
+        width: 450px;
+        height: auto;
+        justify-self: center;   
+    }
+
+    .logo img{
+        width: 450px;
+        height: 120px;   
+    }
+    
+    .titulo-playlist{
+        font-size: 26px;
+    }
+
+    .titulo-playlist-friends{
+        margin-top: 20px;
+    }
+
+    .friendsplaylist{
+        margin-top: 0px;
+    }
+
+    .video-detalles{
+        grid-template: 25% 15% 27.5% 27.5% 5% / repeat(7, 1fr)
+    }
+
+    .agregar,
+    .electronica,
+    .rock,
+    .ochentas,
+    .relacionado
+    {
+        font-size: 26px;
+    }
+
+    .imagen-compartir,
+    .imagen-guardar
+    {
+        align-self: center;
+        height: 30px;
+        width: 30px;
+    }
+
+    .compartir,
+    .guardar{
+        font-size: 24px;
+        align-self: flex-start;
+    }
+
+    .nombre-video
+    {
+        font-size: 34px;
+    }
+
+    .vistas-video
+    {
+        font-size: 24px;
+    }
+
+    .comentarios,
+    .sugerencias{
+        font-size: 24px;
+    }
+
+    .figura-usuario, .figura-usuario img{
+        height: 40px;
+        width:40px;
+        justify-self: center;
+        align-self: center;   
+    }
+
+    .sugerencias figure, img{
+        height: 200px;
+        width:320px;
+        justify-self: start;
+    }
+
+}
+
+@media screen 
+and (max-width: 2329px) 
+and (min-width: 1000px)
+{
     body{
-        border: 10px solid blue;
+        border: 7px solid gold;
+    }
+
+    .menu{
+        font-size: 20px;
+        grid-template-rows: 11% 4% 37% 6% 25%;
+    }
+
+    .logo{
+        width: 450px;
+        height: auto;
+        justify-self: center;   
+    }
+
+    .logo img{
+        width: 450px;
+        height: 120px;   
+    }
+    
+    .titulo-playlist{
+        font-size: 26px;
+    }
+
+    .titulo-playlist-friends{
+        margin-top: 20px;
+    }
+
+    .friendsplaylist{
+        margin-top: 0px;
+    }
+
+    .video-detalles{
+        grid-template: 25% 15% 27.5% 27.5% 5% / repeat(7, 1fr)
+    }
+
+    .agregar,
+    .electronica,
+    .rock,
+    .ochentas,
+    .relacionado
+    {
+        font-size: 26px;
+    }
+
+    .imagen-compartir,
+    .imagen-guardar
+    {
+        align-self: center;
+        height: 30px;
+        width: 30px;
+    }
+
+    .compartir,
+    .guardar{
+        font-size: 24px;
+        align-self: flex-start;
+    }
+
+    .nombre-video
+    {
+        font-size: 34px;
+    }
+
+    .vistas-video
+    {
+        font-size: 24px;
+    }
+
+    .comentarios,
+    .sugerencias{
+        font-size: 24px;
+    }
+
+    .figura-usuario, .figura-usuario img{
+        height: 40px;
+        width:40px;
+        justify-self: center;
+        align-self: center;   
+    }
+
+    .sugerencias figure, img{
+        height: 200px;
+        width:320px;
+        justify-self: start;
+    }
+
+}
+
+@media screen and (max-width: 1100px){
+    body{
+        border: 10px solid chocolate;
     }
 }
+
+@media screen and (max-width: 1088px){
+    body {
+        border: 10px solid yellow;
+    }
+}                   
+                    
+@media screen and (max-width: 1024px){
+    body{
+        border: 10px solid darkblue;
+    }
+}
+                                        
+@media screen and (max-width: 1000px){      
+    body {
+        border: 10px solid lightgreen;
+    }
+}
+
+
+
+

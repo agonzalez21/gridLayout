@@ -186,20 +186,26 @@ hr {
 }
 
 .agrega-comentario-conteiner{
+    grid-template-columns: 10% 90%;
     background: rgb(242, 242, 242);
     grid-row: 2;
     grid-column: 1 / span 2;
-    display: flex;
-    justify-content: flex-start;
+    display: grid;
+    grid-gap: 5px;
+    /* justify-content: flex-start; */
 }
 
 .agrega-comentario-conteiner figure {
-    margin: 5px 0px 5px 10px;
+    margin: 5px 0px 5px 0px;
 }
 
 .agrega-comentario-conteiner p{
-    margin-left: 20px;
     align-self: center;
+
+}
+
+.agrega-comentario-container-usuario{
+    justify-self: center;
 }
 
 .sugerencias{
